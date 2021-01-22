@@ -39,10 +39,10 @@ engine.setProperty('volume',1.0)
 
            
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[0].id)
+engine.setProperty('voice', voices[1].id)
 engine.say("This is male voice. If you like, hit '1'")
 engine.runAndWait()
-engine.setProperty('voice', voices[1].id)
+engine.setProperty('voice', voices[0].id)
 engine.say("This is female voice. If you like, hit '2'")
 engine.runAndWait()
 
